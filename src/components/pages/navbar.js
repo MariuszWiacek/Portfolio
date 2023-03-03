@@ -1,6 +1,3 @@
-import React, {useState} from "react";
-import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
-import "./index.css"
 function Navbar() {
     return <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -21,6 +18,3 @@ function Navbar() {
   };
   
   export default Navbar;
-
-
-
