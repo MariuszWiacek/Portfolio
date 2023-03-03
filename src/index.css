@@ -1,8 +1,15 @@
 body {
- background-color: blue;
+  background-image: url("./components/images/bcg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
 }
 
 .navbar-nav {
+  
   border: #61dafb;
 
 
