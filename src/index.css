@@ -5,12 +5,170 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
- 
+  font-family: 'Baskerville', sans-serif;
+  padding-top: 10px;
 }
 
-.navbar-nav {
+.navbar {
+
+  background-color: #00666654;
+
+  font-family: 'Baskerville', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 10px;
+
+}
+
+a.nav-link {
+  color: #fcfcfc;
+}
+
+
+.navbar-brand {
+
+  color: #fcffff;
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 1.8cm;
+  animation: shake 30s;
+  animation-iteration-count: infinite;
+
+}
+
+img {
+  background-color: #00000057;
+  position:relative;
+  bottom: 5cm;
+  right: 10px;
+  border-radius: 50%;
+}
+
+/* CSS */
+.button-53 {
   
-  border: #61dafb;
+  background-color: #00666644;
+  border: 1 solid #000000;
+  box-sizing: border-box;
+  color: #fdf7f7cc;
+  display: flexbox;
+  font-family: 'Baskerville', sans-serif;
+  font-weight: 500;
+
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+
+  cursor: pointer;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+h1::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+h1:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+h1::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: hsla(170, 100%, 50%, 0.041);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+h2 {
+  color: #fcfcfc;
+}
+
+.button-53:hover {
 
 
+  animation: shake 3s;
+  animation-iteration-count: infinite;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(-1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+
+@media (max-width: 768px) {
+  body {
+    padding: 0cm;
+  }
+
+  .h1 {
+    padding: 0cm;
+  }
+
+  img {
+    visibility: hidden;
+  }
 }

@@ -2,33 +2,42 @@ import React from "react";
 // importing Link from react-router-dom to navigate to
 // different end points.
 import { Link } from "react-router-dom";
+import About from "./about";
 
 const Home = () => {
 return (
 	<div>
-	<h1>Home Page</h1>
+	<h1 style={{color: "white"}}>I'm Mariusz Wiacek, your Web Developer!</h1>
+	<br />
+	<img src="https://avatars.githubusercontent.com/u/117862308?v=4"  alt="mariusz" width="300" height="300"></img>
+
 	<br />
 	<ul>
-		<li>
-		{/* Endpoint to route to Home component */}
-		<Link to="/">Home</Link>
-		</li>
-		<li>
-		{/* Endpoint to route to About component */}
-		<Link to="/about">About</Link>
-		</li>
-		<li>
-		{/* Endpoint to route to Contact Us component */}
-		<Link to="/contact">Contact Us</Link>
-		</li>
-		<li>
-		{/* Endpoint to route to projects component */}
-		<Link to="/project">Project</Link>
-		</li>
-		<li>
-		{/* Endpoint to route to project component */}
-		<Link to="/projects">Projects</Link>
-		</li>
+	<Link to="/about" style={{ textDecoration: 'none' }}><button class="button-53" role="button">
+		{About}
+		ABOUT ME
+		</button></Link>
+		<Link to="/" style={{ textDecoration: 'none' }}><button class="button-53" role="button">
+		{About}
+		ABOUT ME
+		</button></Link>
+		<Link to="/about" style={{ textDecoration: 'none' }}><button class="button-53" role="button">
+		{About}
+		ABOUT ME
+		</button></Link>
+		<Link to="/about" style={{ textDecoration: 'none' }}><button class="button-53" role="button">
+		{About}
+		ABOUT ME
+		</button></Link>
+		<Link to="/about" style={{ textDecoration: 'none' }}><button class="button-53" role="button">
+		{About}
+		ABOUT ME
+		</button></Link>
+		<Link to="/about" style={{ textDecoration: 'none' }}><button class="button-53" role="button">
+		{About}
+		ABOUT ME
+		</button></Link>
+		
 		
 	</ul>
 	</div>
@@ -36,3 +45,5 @@ return (
 };
 
 export default Home;
+
+

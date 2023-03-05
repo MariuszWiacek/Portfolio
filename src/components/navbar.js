@@ -1,5 +1,5 @@
 function Navbar() {
-    return <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    return <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Mariusz Wiacek - web developer</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -8,13 +8,13 @@ function Navbar() {
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Download</a>
+            <a class="nav-link" href="#">CV</a>
           </li>
         </ul>
       </div>
