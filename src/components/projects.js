@@ -6,7 +6,7 @@ import projects from './projects.json';
 function ProjectsGallery(props) {
   
   const projectCards = projects.map((project) => (
-    <div className="col-md-4">
+    <div className="col-md-4 " >
       <ProjectCard
         name={project.name}
         image={project.image}
@@ -19,7 +19,7 @@ function ProjectsGallery(props) {
   return (
     <div className="project-container">
       <h2 className="title">My projects</h2>
-      <div className="row justify-content-center">
+      <div className="row justify-content-center" id="rows">
         {projectCards}
       </div>
     </div>

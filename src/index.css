@@ -177,6 +177,40 @@ h2 {
 }
 
 
+/* CARDS CSS */
+
+
+.card {
+  background-color: #00000050 !important;
+  margin: 2rem;
+  text-align: center;
+}
+
+.card>.img-container>img {
+ height:300px;
+  overflow: hidden;
+  
+  
+  
+}
+
+.card>.content {
+  color: #fcfcfc;
+  font-size: 30px;
+}
+
+.card>.content>ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.card>.content>ul>li {
+  margin-top: 10px;
+}
+
+
+
+
 @media (max-width: 1200px) {
   body
   {
@@ -200,5 +234,6 @@ h2 {
 
     
   }
-  
+  .card  {width: 100%;}
+
 }
