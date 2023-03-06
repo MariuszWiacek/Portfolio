@@ -2,12 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Home from "./home";
 
-
-
-const ContactMe = () => {
+const Skills = () => {
   return (
     <div>
-      <h2>Contact Me :</h2>
+      <h2>Skills</h2>
       <button>
 		{Home}
 		<Link to="../">Back</Link>
@@ -17,4 +15,4 @@ const ContactMe = () => {
   );
 };
   
-export default ContactMe;
+export default Skills;

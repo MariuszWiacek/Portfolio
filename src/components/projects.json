@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Quick Movies",
+      "image":
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/A_book.jpg/1024px-A_book.jpg",
+      "deployed": "https://MIRY84.github.io/Quick-Movies",
+      "github": "https://github.com/MariuszWiacek/"
+    },
+    {
+        "id": 2,
+        "name": "Bootstrap portfolio",
+        "image":
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/A_book.jpg/1024px-A_book.jpg",
+        "deployed": "https://MariuszWiacek.github.io/Bootstrap-Portfolio/",
+        "github": "https://github.com/MariuszWiacek/Bootstrap-Portfolio"
+      },
+      {
+        "id": 3,
+        "name": "Password generator",
+        "image":
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/A_book.jpg/1024px-A_book.jpg",
+        "deployed": "https://MariuszWiacek.github.io/Password-Generator/",
+        "github": "https://github.com/MariuszWiacek/password-generator"
+      },
+      {
+        "id": 4,
+        "name": "Weather dashboard",
+        "image":
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/A_book.jpg/1024px-A_book.jpg",
+        "deployed": "https://MariuszWiacek.github.io/weather-dahboard/",
+        "github": "https://github.com/MariuszWiacek/weather-dahboard"
+      },
+      {
+        "id": 5,
+        "name": "Coding quiz",
+        "image":
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/A_book.jpg/1024px-A_book.jpg",
+        "deployed": "https://MariuszWiacek.github.io/code-quiz/",
+        "github": "https://github.com/MariuszWiacek/code-quiz"
+      },
+      {
+        "id": 6,
+        "name": "Workday planner",
+        "image":
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/A_book.jpg/1024px-A_book.jpg",
+        "deployed": "https://MariuszWiacek.github.io/daily-planner/",
+        "github": "https://github.com/MariuszWiacek/daily-planner"
+      }
+  ]

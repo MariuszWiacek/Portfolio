@@ -6,7 +6,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Baskerville', sans-serif;
-  padding-top: 10px;
+  padding: auto;
 }
 
 .navbar {
@@ -16,47 +16,85 @@ body {
   font-family: 'Baskerville', sans-serif;
   font-size: 25px;
   font-weight: 500;
-  padding-bottom: 10px;
+ }
 
-}
+ .bi.bi-cloud-download
+ {
+  padding-bottom: 1cm;
+  padding-left:  48%;
+ color: #ffffff;
+ height: 4cm;
+ width: 4cm;
+ background-color: #ffffff00;
+ font-size:100px;
+border-radius: 50%;
+border: none;
+animation: shake 8s;
+animation-iteration-count: infinite;
 
+
+ 
+ }
 a.nav-link {
   color: #fcfcfc;
 }
+.socializer {
+  display:flex;
+ justify-content: center;
+ 
+ 
 
+}
 
-.navbar-brand {
-
+.navbar-logo {
+  font-family: 'Baskerville', sans-serif;
   color: #fcffff;
-  font-size: 25px;
+  font-size: 30px;
+  text-decoration: none;
 }
 
 h1 {
   font-size: 50px;
   text-align: center;
-  padding: 1.8cm;
+  padding-top: 8%;
+  padding-bottom: 8%;
   animation: shake 30s;
   animation-iteration-count: infinite;
 
 }
 
-img {
-  background-color: #00000057;
-  position:relative;
-  bottom: 5cm;
-  right: 10px;
-  border-radius: 50%;
+
+h2 
+ {text-align: center;
+padding-bottom: 1cm;
+padding-top: 2cm;
 }
 
-/* CSS */
+
+#pic {
+  
+  position:absolute;
+  bottom: 5cm;
+  right: 80%;
+  bottom:40%;
+  border-radius: 50%;
+  
+}
+#img2 {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
 .button-53 {
   
   background-color: #00666644;
   border: 1 solid #000000;
   box-sizing: border-box;
   color: #fdf7f7cc;
-  display: flexbox;
+  display:inline-block;
   font-family: 'Baskerville', sans-serif;
+  font-size: 35px;
   font-weight: 500;
 
   line-height: 1.75rem;
@@ -106,62 +144,32 @@ h2 {
 .button-53:hover {
 
 
-  animation: shake 3s;
+  animation: shake 1s;
   animation-iteration-count: infinite;
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
 @keyframes shake {
-  0% {
-    transform: translate(1px, 1px) rotate(0deg);
-  }
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(1deg); }
+  20% { transform: translate(-3px, 0px) rotate(2deg); }
+  30% { transform: translate(3px, 2px) rotate(1deg); }
+  40% { transform: translate(1px, -1px) rotate(0deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(1deg); }
+  80% { transform: translate(-1px, -1px) rotate(2deg); }
+  90% { transform: translate(1px, 2px) rotate(1deg); }
+  100% { transform: translate(1px, -2px) rotate(0deg); }
 
-  10% {
-    transform: translate(-1px, -2px) rotate(-1deg);
-  }
-
-  20% {
-    transform: translate(-3px, 0px) rotate(1deg);
-  }
-
-  30% {
-    transform: translate(3px, 2px) rotate(0deg);
-  }
-
-  40% {
-    transform: translate(1px, -1px) rotate(1deg);
-  }
-
-  50% {
-    transform: translate(-1px, 2px) rotate(-1deg);
-  }
-
-  60% {
-    transform: translate(-3px, 1px) rotate(0deg);
-  }
-
-  70% {
-    transform: translate(3px, 1px) rotate(-1deg);
-  }
-
-  80% {
-    transform: translate(-1px, -1px) rotate(-1deg);
-  }
-
-  90% {
-    transform: translate(1px, 2px) rotate(0deg);
-  }
-
-  100% {
-    transform: translate(1px, -2px) rotate(-1deg);
-  }
 }
 
 
-@media (max-width: 768px) {
-  body {
-    padding: 0cm;
+@media (max-width: 1200px) {
+  body
+  {
+    background-size:auto;
   }
 
   .h1 {
@@ -171,4 +179,15 @@ h2 {
   img {
     visibility: hidden;
   }
+  .button {
+    
+    width: 100%;
+  }
+  .bi.bi-cloud-download
+  {
+    font-size:100px;
+
+    
+  }
+  
 }
