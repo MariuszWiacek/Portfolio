@@ -26,7 +26,6 @@ const CV = () => {
                     </div>
                   </div>
                   <button>
-		{/* Endpoint to route to Home component */}
 		<Link to="../">Back</Link>
 		</button>
                 </div>

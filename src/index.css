@@ -7,6 +7,7 @@ body {
   background-repeat: no-repeat;
   font-family: 'Baskerville', sans-serif;
   padding: auto;
+  color: #fcfcfc;
 }
 
 .navbar {
@@ -70,6 +71,12 @@ padding-bottom: 1cm;
 padding-top: 2cm;
 }
 
+p {
+  color:#fcfcfc;
+  padding-top: 2px;
+  padding-bottom: 0%;
+}
+
 
 #pic {
   
@@ -86,6 +93,10 @@ padding-top: 2cm;
   overflow: hidden;
 }
 
+
+
+.input
+{font-size:larger;}
 .button-53 {
   
   background-color: #00666644;
