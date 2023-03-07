@@ -1,4 +1,4 @@
-# <p align="center">**Portfolio**</p>
+# <p align="center">**REACT Portfolio**</p>
  
   ## Table of Contents
   * [Description](#description)
