@@ -207,7 +207,9 @@ h2 {
   margin-top: 10px;
 }
 
-
+li {
+  color: #fcfcfc;
+}
 
 
 @media (max-width: 960px) {

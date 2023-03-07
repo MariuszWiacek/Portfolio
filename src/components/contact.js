@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import Home from "./home";
+
 
 
 
@@ -25,16 +25,16 @@ function ContactMe() {
         <p style={{ paddingTop: "100px", textAlign: "center", fontSize: "40px" }}>Contact Me:</p>
         <div>
           <p style={{ paddingTop: "10px"}}>Name:</p>
-          <input type="text" placeholder="your name" id="name" name="name" style={{ width: "400px" }} value={name} onChange={(e) => setName(e.target.value)} required />
+          <input type="text" placeholder="your name" id="name" name="name" style={{ width: "360px" }} value={name} onChange={(e) => setName(e.target.value)} required />
         </div>
         <div>
 
           <p style={{ paddingTop: "10px"}}>Email:</p>
-          <input type="email" placeholder="your email adress" id="email" name="email" style={{ width: "400px" }} value={email} onChange={(e) => setEmail(e.target.value)} required />
+          <input type="email" placeholder="your email adress" id="email" name="email" style={{ width: "360px" }} value={email} onChange={(e) => setEmail(e.target.value)} required />
         </div>
         <div>
           <p style={{ paddingTop: "10px"}}>Message:</p>
-          <textarea  id="message" placeholder="message" rows="10" cols="30" name="message" style={{  width: "400px" }} value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
+          <textarea  id="message" placeholder="message" rows="10" cols="30" name="message" style={{  width: "360px" }} value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
         </div>
         <button>
           <Link to="../">Home</Link>
