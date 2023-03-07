@@ -15,7 +15,7 @@ const About = () => {
          
         </div>
       </div>
-      <button>
+      <button class="bi bi-house">
 		{/* Endpoint to route to Home component */}
 		<Link to={"../"}>Back</Link>
 		</button>

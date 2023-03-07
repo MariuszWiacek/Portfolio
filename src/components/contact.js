@@ -36,7 +36,7 @@ function ContactMe() {
           <p style={{ paddingTop: "10px"}}>Message:</p>
           <textarea  id="message" placeholder="message" rows="10" cols="30" name="message" style={{  width: "360px" }} value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
         </div>
-        <button>
+        <button class="bi bi-house">
           <Link to="../">Home</Link>
         </button>
         <button type="submit">Send</button>

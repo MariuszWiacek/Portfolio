@@ -25,8 +25,8 @@ const CV = () => {
                       </h2>
                     </div>
                   </div>
-                  <button>
-		<Link to="../">Back</Link>
+                  <button class="bi bi-house" >
+		<Link to="../">Home</Link>
 		</button>
                 </div>
               </section>)}

@@ -211,6 +211,19 @@ li {
   color: #fcfcfc;
 }
 
+button {
+  background-color: #00666618;
+  color: #fcfcfc;
+  text-decoration: none;
+  border: none;
+  align-items: center;
+}
+
+a {
+  color: #fcfcfc;
+  text-decoration-line: none;
+}
+
 
 @media (max-width: 960px) {
   body
