@@ -4,6 +4,8 @@
       "name": "Quick Movies",
       "image":
           "https://raw.githubusercontent.com/MariuszWiacek/Quick-movies/main/images/screenshot.png",
+      "description" : "Description for card ",
+      "technologies" : "Javascript",
       "deployed": "https://MIRY84.github.io/Quick-Movies",
       "github": "https://github.com/MariuszWiacek/"
     },
@@ -12,6 +14,8 @@
         "name": "Bootstrap portfolio",
         "image":
           "https://github.com/MariuszWiacek/Bootstrap-Portfolio/raw/main/images/screenshot.png",
+          "description" : "Description for card ",
+          "technologies" : "Javascript",
         "deployed": "https://MariuszWiacek.github.io/Bootstrap-Portfolio/",
         "github": "https://github.com/MariuszWiacek/Bootstrap-Portfolio"
       },
@@ -20,6 +24,8 @@
         "name": "Password generator",
         "image":
           "https://github.com/MariuszWiacek/Password-generator/raw/main/java.png",
+          "description" : "Description for card ",
+          "technologies" : "Javascript",
         "deployed": "https://MariuszWiacek.github.io/Password-Generator/",
         "github": "https://github.com/MariuszWiacek/password-generator"
       },
@@ -28,6 +34,8 @@
         "name": "Weather dashboard",
         "image":
           "https://github.com/MariuszWiacek/Weather-Dashboard/raw/main/images/screenshot.png",
+          "description" : "Description for card ",
+          "technologies" : "Javascript",
         "deployed": "https://MariuszWiacek.github.io/weather-dahboard/",
         "github": "https://github.com/MariuszWiacek/weather-dahboard"
       },
@@ -36,6 +44,8 @@
         "name": "My Team Generator",
         "image":
           "https://github.com/MariuszWiacek/My-Team-Generator/raw/main/assets/screenshot.png",
+          "description" : "Description for card ",
+          "technologies" : "Javascript",
         "deployed": "https://github.com/MariuszWiacek/My-Team-Generator",
         "github": "https://github.com/MariuszWiacek/My-Team-Generator"
       },
@@ -44,6 +54,8 @@
         "name": "Scheduler",
         "image":
           "https://github.com/MariuszWiacek/Scheduler/raw/main/images/screenshot.png",
+          "description" : "Description for card ",
+          "technologies" : "Javascript",
         "deployed": "https://MariuszWiacek.github.io/Scheduler",
         "github": "https://github.com/MariuszWiacek/Scheduler"
       }

@@ -8,6 +8,8 @@ function ProjectsGallery(props) {
   const projectCards = projects.map((project) => (
     <div className="col-md-4 " >
       <ProjectCard
+      description={project.description}
+      technologies={project.technologies}
         name={project.name}
         image={project.image}
         deployed={project.deployed}
