@@ -1,22 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import Home from "./home";
 
 const Skills = () => {
   return (
-    <div>
+    <div class="centered">
       <h2>Skills</h2>
-      <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>DOM Manipulation</li>
-      <li>JSON</li>
-      <li>AJAX</li>
-      <li>Node.js</li>
-      <li>React</li>
-      <li>Javascript</li>
-      <li>Problem-Solving</li>
+      <ul class="centered" style={{paddingBottom:"3%"}}>
+      <p>HTML, CSS, Javascript</p>
+      <p>DOM Manipulation, JSON, AJAX</p>
+      <p>Node.js, REACT, Agile</p>
+      <p>Problem-Solving</p>
       </ul>
       <button class="bi bi-house">
 

@@ -25,6 +25,7 @@ function ProjectsGallery(props) {
         {projectCards}
       </div>
     </div>
+    
   );
 }
 

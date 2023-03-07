@@ -30,11 +30,14 @@ function ProjectCard(props) {
 
           </li>
         </ul>
+      
       </div>
+      
     </div>
+    
+      
 
   );
-
 }
 
 
