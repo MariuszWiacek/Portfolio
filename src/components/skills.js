@@ -18,10 +18,9 @@ const Skills = () => {
       <li>Javascript</li>
       <li>Problem-Solving</li>
       </ul>
-      
-      <button>
-		{Home}
-		<Link to="../">Back</Link>
+      <button class="bi bi-house">
+
+		<Link class="none" to="../">Home</Link>
 		</button>
     </div>
     

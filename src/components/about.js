@@ -17,7 +17,7 @@ const About = () => {
       </div>
       <button class="bi bi-house">
 		{/* Endpoint to route to Home component */}
-		<Link to={"../"}>Back</Link>
+		<Link class="none" to={"../"}>Home</Link>
 		</button>
     </section>
     

@@ -10,7 +10,7 @@ const HireMe = () => {
       <h2>Please use contact form or email me for more information.</h2>
       <button class="bi bi-house">
 		{Home}
-		<Link to="../">Back</Link>
+		<Link class="none" to="../">Home</Link>
 		</button>
     </div>
     

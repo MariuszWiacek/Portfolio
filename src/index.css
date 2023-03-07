@@ -91,7 +91,10 @@ h3 {color: red}
   object-fit: cover;
   overflow: hidden;
 }
+.none {
 
+text-decoration: none;
+}
 
 
 .input

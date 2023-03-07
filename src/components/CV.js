@@ -26,7 +26,7 @@ const CV = () => {
                     </div>
                   </div>
                   <button class="bi bi-house" >
-		<Link to="../">Home</Link>
+		<Link class="none" to="../">Home</Link>
 		</button>
                 </div>
               </section>)}
