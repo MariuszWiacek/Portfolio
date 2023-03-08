@@ -83,7 +83,6 @@ h3 {color: red}
   
   border-radius: 50%;
   padding: 1cm;
-  animation-iteration-count: infinite;
    
 }
 #img2 {
@@ -258,12 +257,23 @@ a {
 
     
   }
-  .card  {width: 100%;}
+  .card  {width: 80%;}
+
+  #pic {
+    padding: 0.5cm;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .navbar-logo {
+font-size: 20px;
+  } 
+}
 
   
    
     
-}
+
 
 
 
