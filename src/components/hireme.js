@@ -5,9 +5,9 @@ import Home from "./home";
 const HireMe = () => {
   return (
     <div class="centered">
-      <h2>Hire Me</h2>
-      <h2>I am currently accepting new freelance website projects.</h2>
-      <h2>Please use contact form or email me for more information.</h2>
+      <h2 style={{fontSize:"80px"}}>Hire Me</h2>
+      <p class="centered">I am currently accepting new freelance website projects.</p>
+      <p>Please use contact form or email me for more information.</p>
       <button class="bi bi-house" style={{}}>
 		{Home}
 		<Link class="none" to="../">Home</Link>

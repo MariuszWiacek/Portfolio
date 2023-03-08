@@ -20,7 +20,8 @@ function ProjectsGallery(props) {
 
   return (
     <div className="project-container">
-      <h2 className="title">My projects</h2>
+      <h2 className="title">RECENT PROJECTS</h2>
+      <p></p>
       <div className="row justify-content-center" id="rows">
         {projectCards}
       </div>
