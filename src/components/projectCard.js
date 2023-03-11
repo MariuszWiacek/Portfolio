@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../index.css";
 
 
@@ -11,31 +12,31 @@ function ProjectCard(props) {
       </div>
       <div className="content">
         <ul>
-        <li style={{ textAlign: 'left', fontSize: '40px', borderBottom: "white"}}>
+          <li style={{ textAlign: 'left', fontSize: '40px', borderBottom: "white" }}>
             {props.name}
           </li>
-          <li style={{ textAlign: 'left', fontSize: '15px'}}>
-           {props.technologies}
+          <li style={{ textAlign: 'left', fontSize: '15px' }}>
+            {props.technologies}
           </li>
-          <li style={{ textAlign: 'left', fontSize: '15px'}}>
-           {props.description}
+          <li style={{ textAlign: 'left', fontSize: '15px' }}>
+            {props.description}
           </li>
-          <li style={{ textAlign: 'left', fontSize: '20px'}}>
+          <li style={{ textAlign: 'left', fontSize: '20px' }}>
 
-            <button class="button-53" style={{color:"red", fontSize:"20px", border: '1px solid white'}} href={props.deployed}>Click to check this project</button>
+            <Link className="none" to={props.deployed}><button class="button-53" style={{ color: "red", fontSize: "20px", border: '1px solid white', backgroundColor: "#000000d2" }} >Click to check this project</button></Link>
 
           </li>
-          <li style={{ textAlign: 'left', fontSize: '20px', textDecoration: 'none'}}>
-            <button class="button-53" style={{color:"red", fontSize:"20px", border: '1px solid white'}} href={props.github}>GitHub Respository</button>
+          <li style={{ textAlign: 'left', fontSize: '20px', textDecoration: 'none' }}>
+            <Link className="none" to={props.github} ><button class="button-53" style={{ color: "red", fontSize: "20px", border: '1px solid white', backgroundColor: "#000000d2" }}>GitHub Respository</button></Link>
 
           </li>
         </ul>
-      
+
       </div>
-      
+
     </div>
-    
-      
+
+
 
   );
 }
