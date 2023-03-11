@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import About from "./about";
-import myImg from "./images/pic.jpg";
+import myImg from "../images/pic.jpg";
 
 
 
