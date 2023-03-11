@@ -20,7 +20,7 @@ function ProjectsGallery(props) {
 
   return (
     <div>
-      <h2 style={{ fontSize: "50px" }}>Projects</h2>
+      <h2 style={{ fontSize: "50px", borderTop:"1px solid white" }}>Projects</h2>
       <p style={{ fontStyle: "italic" }}>All recent projects were built during edX  Front-End Developer Bootcamp</p>
       <div className="row justify-content-center" id="rows">
         {projectCards}

@@ -30,17 +30,15 @@ footer {
   text-align: center;
 }
 
-.bi.bi-cloud-download {
+.bi-file-earmark-person-fill {
   padding-bottom: 1cm;
   padding-left: 48%;
-  color: #ffffff;
-  height: 4cm;
-  width: 4cm;
-  background-color: #ffffff00;
+  color: #ffd7d7;
+  height: 3cm;
+  width: 3cm;
   font-size: 100px;
-  border-radius: 50%;
   border: none;
-  animation: shake 8s;
+  animation: shake 10s;
   animation-iteration-count: infinite;
 
 

@@ -4,19 +4,27 @@ import React from "react";
 const Skills = () => {
   return (
     <div class="centered">
-      <h2 style={{ fontSize: "50px" }}>Skills</h2>
+      <h2 style={{ fontSize: "50px", borderBottom:"1px solid white"}} >Skills</h2>
       
-      <ul class="centered" style={{ paddingBottom: "3%" }}>
-        <img style={{ height:"150px", width:"150px", paddingRight:"5px" }} src="https:/cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="The logo icon for react" title="React"></img >
-        <img style={{ height:"150px", width:"150px", paddingRight:"5px"}} src="https:/cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="The logo icon for HTML 5" title="HTML 5"></img >
-        <img style={{ height:"150px", width:"150px", paddingRight:"5px"}} src="https:/cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="The logo icon for CSS3" title="CSS 3"></img >
-        <img style={{ height:"150px", width:"150px", paddingRight:"5px"}} src="https:/cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" alt="The logo icon for TailwindCSS" title="Twilwind CSS"></img >
-      <img style={{ height:"150px", width:"150px", paddingRight:"5px"}} src="https:/cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="The logo icon for GitHub" title="GitHub"></img >
-      <img style={{ height:"150px", width:"150px", paddingRight:"5px"}} src="https:/cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="The logo icon for NPM" title="NPM"></img >
-      <img style={{ height:"150px", width:"150px", paddingRight:"5px"}} src="https:/cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="The logo icon for NodeJS" title="Node JS"></img >
+      <ul class="centered" style={{ paddingBottom: "3%", paddingTop: "3%" }}>
+      <i style={{fontSize:"150px", color:"yellow"}}class="devicon-javascript-plain"></i>
+      <i style={{fontSize:"150px", color:"red"}} class="devicon-html5-plain" ></i>
+      <i style={{fontSize:"150px", color:"blue"}} class="devicon-css3-plain-wordmark colored"></i>
+      <i style={{fontSize:"150px", color:"#ADD8E6"}} class="devicon-react-original"></i>
+      <i style={{fontSize:"150px", color:"red"}} class="devicon-npm-original-wordmark colored"></i>
+      <i style={{fontSize:"150px", color:"green"}} class="devicon-nodejs-plain colored"></i>
+      <i style={{fontSize:"150px", color:"white"}} class="devicon-github-original-wordmark"></i>
+      <i style={{fontSize:"150px", color:"orange"}}class="devicon-jquery-plain"></i>
+
+
+
+
+
+      
+
 
     </ul>
-    <p>Creating web and mobile applications <br />
+    <p style={{borderTop:"1px solid white"}}>Creating web and mobile applications, proficient in coding languages such as HTML, CSS, JavaScript, and jQuery.<br />
 Maintaining, optimizing, troubleshooting, and improving websites<br /> 
 Implementation of apps and landing pages from concept through deployment <br /></p><br />
     </div >

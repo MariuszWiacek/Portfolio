@@ -1,8 +1,8 @@
 
 
 function Header() {
-    return <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
+    return <nav class="navbar navbar-expand-lg"  style={{borderBottom:"1px solid white"}}>
+    <div class="container-fluid" style={{borderBottom:"1px white"}}>
       <a class="navbar-logo" href="#" >&#123;&#123;  Mariusz-Portfolio  &#125;&#125;</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
