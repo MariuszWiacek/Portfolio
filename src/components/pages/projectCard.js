@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../../index.css";
 
 
@@ -23,12 +22,11 @@ function ProjectCard(props) {
           </li>
           <li style={{ textAlign: 'left', fontSize: '20px' }}>
 
-            <Link className="none" to={props.deployed}><button class="button-53" style={{ color: "red", fontSize: "20px", border: '1px solid white', backgroundColor: "#000000d2" }} >Check this project</button></Link>
+            <button class="button-53" style={{ color: "red", fontSize: "20px", border: '1px solid white', backgroundColor: "#000000d2" }}><a style={{ textDecoration: 'none' }} href={props.deployed}>Deployed project</a></button>
 
           </li>
           <li style={{ textAlign: 'left', fontSize: '20px', textDecoration: 'none' }}>
-            <Link className="none" to={props.github} ><button class="button-53" style={{ color: "red", fontSize: "20px", border: '1px solid white', backgroundColor: "#000000d2" }}>GitHub Respository</button></Link>
-
+            <button class="button-53" style={{ color: "red", fontSize: "20px", border: '1px solid white', backgroundColor: "#000000d2" }}><a style={{ textDecoration: 'none' }} href={props.github}>GitHub Respository</a></button>
           </li>
         </ul>
 
