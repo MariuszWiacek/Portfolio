@@ -23,7 +23,7 @@ function ProjectCard(props) {
           </li>
           <li style={{ textAlign: 'left', fontSize: '20px' }}>
 
-            <Link className="none" to={props.deployed}><button class="button-53" style={{ color: "red", fontSize: "20px", border: '1px solid white', backgroundColor: "#000000d2" }} >Click to check this project</button></Link>
+            <Link className="none" to={props.deployed}><button class="button-53" style={{ color: "red", fontSize: "20px", border: '1px solid white', backgroundColor: "#000000d2" }} >Check this project</button></Link>
 
           </li>
           <li style={{ textAlign: 'left', fontSize: '20px', textDecoration: 'none' }}>

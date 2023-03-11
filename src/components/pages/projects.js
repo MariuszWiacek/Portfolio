@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from './projectCard';
-import projects from '../projects.json';
+import projects from './projects.json';
 
 
 function ProjectsGallery(props) {
