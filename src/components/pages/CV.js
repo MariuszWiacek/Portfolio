@@ -1,5 +1,5 @@
 import React from "react";
-import myResume from "../images/CV.pdf";
+import myResume from "https://drive.google.com/file/d/1_Wn25qeTscIHbRt_DzlKggkDEQOf5MEr/view?usp=share_link";
 
 const CV = () => {
   return (
