@@ -7,7 +7,7 @@ const Skills = () => {
       <h2 style={{ fontSize: "50px", borderBottom:"1px solid white"}} >Skills</h2>
       
       <ul class="centered" style={{ paddingBottom: "3%", paddingTop: "3%" }}>
-      <i style={{fontSize:"150px", color:"yellow"}}class="devicon-javascript-plain"></i>
+      <i style={{fontSize:"150px", color:"yellow"}} id="icn" class="devicon-javascript-plain"></i>
       <i style={{fontSize:"150px", color:"red"}} class="devicon-html5-plain" ></i>
       <i style={{fontSize:"150px", color:"blue"}} class="devicon-css3-plain-wordmark colored"></i>
       <i style={{fontSize:"150px", color:"#ADD8E6"}} class="devicon-react-original"></i>
