@@ -1,5 +1,5 @@
 import React from "react";
-import myResume from "https://drive.google.com/file/d/1_Wn25qeTscIHbRt_DzlKggkDEQOf5MEr/view?usp=share_link";
+
 
 const CV = () => {
   return (
@@ -10,7 +10,7 @@ const CV = () => {
       <div className="flex-row" >
         <div className="download-info">
           <div className="download-text" >
-            <a href={myResume} download>
+            <a href="https://drive.google.com/file/d/1yGb3Iu7HhAmq3j_r95IL_Nx2prJHL-8f/view" download>
               <button class="bi bi-file-earmark-person-fill"></button><br /><br /><br />
             </a>
             <p class="centered">
