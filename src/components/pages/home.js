@@ -3,6 +3,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import About from "./about";
 import myImg from "../images/pic.jpg";
+import CV from "./CV";
+import HireMe from "./hireme";
+import Skills from "./skills";
 
 
 
@@ -28,6 +31,20 @@ return (
 		<Link to="/contact" style={{ textDecoration: 'none' }}><button class="button-53" role="button">
 		{About}
 		Contact me
+		</button></Link>
+		</ul>
+		<ul id="mobile-menu" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+	<Link to="/skills" style={{ textDecoration: 'none' }}><button class="button-53" role="button">
+		Skills
+		{Skills}
+		</button></Link>
+		<Link to="/hireme" style={{ textDecoration: 'none' }}><button class="button-53" role="button">
+		{HireMe}
+		Hire me
+		</button></Link>
+		<Link to="/CV" style={{ textDecoration: 'none' }}><button class="button-53" role="button">
+		{CV}
+		CV
 		</button></Link>
 		</ul>
 

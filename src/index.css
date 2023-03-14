@@ -105,6 +105,9 @@ h3 {
   transition: 1s;
 }
 
+#mobile-menu {
+  visibility: hidden;
+}
 
 #img2 {
   width: 100%;
@@ -318,11 +321,17 @@ a {
 
   #pic {
     padding: 0.5cm;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
 
   .navbar-logo {
     font-size: 20px;
   }
+
+  #mobile-menu {
+    visibility: visible;
+  }
+
+  .li {image-resolution:  10px;}
 }
