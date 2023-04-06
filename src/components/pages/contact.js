@@ -17,7 +17,7 @@ function ContactMe() {
   <div style={{alignItems: 'center'}}>
   <h1 style={{fontSize: '60px',  marginTop: '5%'}}>Contact Form </h1>
   <p> I am currently looking to get more experience as a Front End Developer trough employment or by accepting new freelance website projects.<br />
-      <b>Please use contact form or email me for more information.</b></p>
+      Please use contact form or email me for more information.</p>
  
     <div className="form-container" style={{ display: "flex", flexDirection: "column", marginLeft: "5%", alignItems: "left" }}>
       <form onSubmit={handleSubmit}>

@@ -18,15 +18,15 @@ body {
 
 .navbar-nav {
   
-  --bs-nav-link-hover-color:   rgb(190, 1, 158) !important;
+  --bs-nav-link-hover-color:   rgb(9, 255, 255)  !important;
   font-family: 'Poppins', sans-serif;
   font-size: 25px;
   font-weight: 700;
 }
 
 .navbar {
-  color : whitesmoke;
-  --bs-navbar-active-color:  rgb(190, 1, 181)  !important;
+  
+  --bs-navbar-active-color:  rgba(9, 255, 255, 0.589) !important;
 }
 footer {
   
@@ -42,7 +42,7 @@ footer {
 .bi-file-earmark-person-fill {
   padding-bottom: 1cm;
   padding-left: 48%;
-  color: #ffd7d7;
+  color:rgb(9, 255, 255);
   height: 3cm;
   width: 3cm;
   font-size: 100px;
@@ -56,7 +56,7 @@ footer {
 
 a.nav-link {
   color:  whitesmoke;
-  text-shadow: 0.5px 0.5px 0 #300025;
+  
 }
 
 .socializer {
@@ -72,7 +72,7 @@ background-color: whitesmoke !important; }
 
 #navbar-logo {
   font-family: 'Poppins', sans-serif;
-  color: rgb(254, 219, 255);
+  color: whitesmoke;
   font-size: 30px;
   text-decoration: none;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1.5px 1.5px 0 #000;
@@ -85,7 +85,7 @@ h1 {
   font-size: 40px;
   text-align: left;
   margin-left: 5%;
- color: rgb(117, 0, 88);
+ color:#00CED1 ;
   
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1.5px 1.5px 0 #000;
 }
@@ -104,8 +104,9 @@ h2 {
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
-  color: #1c0025;
+  font-family: 'Baskerville', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
   text-align: left;
   --tw-text-opacity: 1;
   margin-left: 5%;
@@ -200,6 +201,27 @@ h2 {
   /* or any other size you prefer */
 }
 
+/* width and color of scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+/* color of scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+}
+
+/* color and shape of scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #4c98af;
+  border-radius: 5px;
+}
+
+/* color of scrollbar when hovering over it */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3e6e8e;
+}
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);

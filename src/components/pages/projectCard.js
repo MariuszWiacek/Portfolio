@@ -28,25 +28,31 @@ function ProjectCard(props) {
               <button
               
               style={{
-            
-                fontSize: "10px",
-                
-                
-              }}
+              
+                backgroundColor: 'white',
+                color: 'black',
+                padding: '10px 20px',
+                borderRadius: '5px',
+                border: 'none',
+                cursor: 'pointer',
+                transition: 'background-color 0.3s ease-out',
+              marginLeft: '5%'}}
             >
               <a style={{ textDecoration: "none", color: "purple" }} href={props.deployed}>
                 Deployed project
               </a>
             </button>
            
-           <button
+           <button 
               
               style={{
-                
-                fontSize: "20px",
-               
-                
-              }}
+              
+                backgroundColor: 'white',
+                color: 'white',
+                padding: '10px 20px',
+                borderRadius: '5px',
+                border: 'none',
+                cursor: 'pointer'}}
             >
               <a style={{ textDecoration: "none", color: "purple" }} href={props.github}>
                 GitHub Respository
