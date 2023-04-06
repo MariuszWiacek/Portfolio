@@ -1,20 +1,18 @@
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import Projects from '../components/pages/projects';
 
 function Header() {
   return(
 <Navbar id="navbarNav" expand="lg">
-<Navbar.Brand href="#" id="navbar-logo">&#123;&#123;  Mariusz-Portfolio  &#125;&#125;</Navbar.Brand>
+<Navbar.Brand href="#" id="navbar-logo" style={{marginLeft: "2%"}}>&#123;&#123;  Mariusz-Portfolio  &#125;&#125;</Navbar.Brand>
 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 <Navbar.Collapse id="basic-navbar-nav">
   <Nav className="navbar-collapse justify-content-end" id="navbarNav">
-  <NavDropdown title="Projects" id="basic-nav-dropdown">
-      <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-      <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-      <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-      
+  <NavDropdown title="Projects" id="basic-nav-dropdown" >
+      <NavDropdown.Item href="#/projects">Most Recent</NavDropdown.Item>
+      <NavDropdown.Item href="#/projects">All Projects</NavDropdown.Item>
     </NavDropdown>
     <Nav.Link href="#/skills">Skills</Nav.Link>
-    <Nav.Link href="#/HireMe">Hire Me</Nav.Link>
     <Nav.Link href="#/About">About</Nav.Link>
     <Nav.Link href="#/Contact">Contact</Nav.Link>
     <Nav.Link href="#/CV">CV</Nav.Link>

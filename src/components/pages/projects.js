@@ -22,10 +22,10 @@ function ProjectsGallery(props) {
     <div class="jumbotron">
   <div style={{alignItems: 'center'}}>
   <h1 style={{fontSize: '60px', marginTop: '5%'}}>My Projects </h1>
-  <p style={{ fontSize: '20px' ,  marginBottom: '5%'}}> projects.<br />
+  <p style={{ fontSize: '15px' }}> projects.
   </p></div>
-      <div  id="rows">
-      <Sliderify>{projectCards}</Sliderify>
+      <div  id="rows" >
+      <Sliderify >{projectCards}</Sliderify>
       </div>
     
 </div>

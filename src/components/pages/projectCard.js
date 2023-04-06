@@ -6,12 +6,12 @@ function ProjectCard(props) {
   return (
     <Card>
       <Row>
-        <Col lg={4} style={{border: "1px"}}>
-          <Card.Img id="img2" style={{width: "500px", height: "300px"}} src={props.image} />
+        <Col md={4} style={{border: "none"}}>
+          <Card.Img id="img2" style={{paddingTop: "1%", width: "300px", height: "250px"}} src={props.image} />
         </Col>
-        <Col lg={8}>
+        <Col md={8}>
           <Card.Body>
-            <h2>{props.name}</h2>
+            <p style={{paddingTop: "1%"}}>{props.name}</p>
             <Row>
               <Col>
                 <p> {props.technologies}</p>
@@ -26,21 +26,21 @@ function ProjectCard(props) {
             <Row>
               <Col>
               <button
-              className="button-53"
+              
               style={{
             
-                fontSize: "20px",
+                fontSize: "10px",
                 
                 
               }}
             >
-              <a style={{ textDecoration: "none", color: "greenyellow" }} href={props.deployed}>
+              <a style={{ textDecoration: "none", color: "purple" }} href={props.deployed}>
                 Deployed project
               </a>
             </button>
            
            <button
-              className="button-53"
+              
               style={{
                 
                 fontSize: "20px",
@@ -48,7 +48,7 @@ function ProjectCard(props) {
                 
               }}
             >
-              <a style={{ textDecoration: "none", color: "greenyellow" }} href={props.github}>
+              <a style={{ textDecoration: "none", color: "purple" }} href={props.github}>
                 GitHub Respository
               </a>
             </button>
