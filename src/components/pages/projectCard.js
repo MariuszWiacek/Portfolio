@@ -4,14 +4,14 @@ import { Card, Row, Col } from 'react-bootstrap';
 
 function ProjectCard(props) {
   return (
-    <Card>
+    <Card id="card">
       <Row>
-        <Col md={4} style={{border: "none"}}>
-          <Card.Img id="img2" style={{paddingTop: "1%", width: "300px", height: "250px"}} src={props.image} />
+        <Col md={3} style={{border: "none"}}>
+          <Card.Img id="img2" style={{paddingTop: "5%", width: "300px", height: "250px"}} src={props.image} />
         </Col>
         <Col md={8}>
           <Card.Body>
-            <p style={{paddingTop: "1%"}}>{props.name}</p>
+            <h2 style={{color: "red"}}>{props.name}</h2>
             <Row>
               <Col>
                 <p> {props.technologies}</p>
@@ -19,7 +19,7 @@ function ProjectCard(props) {
               </Row>
               <Row>
               <Col>
-                <p>{props.description}</p>
+                <p style={{color: "turquoise"}}>{props.description}</p>
               </Col>
              
             </Row>

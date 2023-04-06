@@ -14,7 +14,8 @@ return (
   
   <div style={{alignItems: 'center'}}>
   <h1 style={{fontSize: '70px', marginTop: '6%'}}>Mariusz Wiacek </h1>
-  <h1 style={{  color:"whitesmoke", fontSize: '15px' ,  marginBottom: '4%'}}>Front-End Developer, UX/UI Designer</h1>
+ 
+  <h2 style={{  color:"whitesmoke", fontSize: '25px' ,  marginBottom: '4%'}}>Front-End Developer, UX/UI Designer</h2>
   <p style={{
 	fontSize: '20px' ,
 	color: "#FFD700",
