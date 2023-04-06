@@ -1,13 +1,13 @@
 import React from 'react';
 import ProjectCard from './projectCard';
 import projects from './projects.json';
-
+import { Sliderify } from "react-sliderify";
 
 function ProjectsGallery(props) {
 
   const projectCards = projects.map((project) => (
     <div className="col-md-4 " >
-      <ProjectCard
+     <ProjectCard
         description={project.description}
         technologies={project.technologies}
         name={project.name}
@@ -19,13 +19,16 @@ function ProjectsGallery(props) {
   ));
 
   return (
-    <div>
-      <h2 style={{ fontSize: "50px", borderTop:"1px solid white" }}>Projects</h2>
-      <p style={{ fontStyle: "italic" }}>All recent projects were built during edX  Front-End Developer Bootcamp</p>
-      <div className="row justify-content-center" id="rows">
-        {projectCards}
+    <div class="jumbotron">
+  <div style={{alignItems: 'center'}}>
+  <h1 style={{fontSize: '60px', marginTop: '5%'}}>My Projects </h1>
+  <p style={{ fontSize: '20px' ,  marginBottom: '5%'}}> projects.<br />
+  </p></div>
+      <div  id="rows">
+      <Sliderify>{projectCards}</Sliderify>
       </div>
-    </div>
+    
+</div>
 
   );
 }
