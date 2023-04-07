@@ -15,7 +15,7 @@ function ContactMe() {
   return (<div class="jumbotron">
   
   <div style={{alignItems: 'center'}}>
-  <h1 style={{fontSize: '60px',  marginTop: '5%'}}>Contact Form </h1>
+  <h1 style={{fontSize: '60px',  marginTop: '5%'}}>Contact Me</h1>
   <p style={{width: "75%"}}> I am currently looking to gain more experience as a front-end developer through employment or by accepting new freelance website projects. Please use the contact form or email me for more information.</p>
  
     <div className="form-container" style={{ display: "flex", flexDirection: "column", paddingBottom: "8%",  alignItems: "left" }}>
