@@ -12,7 +12,7 @@ const CV = () => {
         Please feel free to download my professional resume by click on picture below.
         </p>
         <a href="https://drive.google.com/file/d/1yGb3Iu7HhAmq3j_r95IL_Nx2prJHL-8f/view" download>
-          <button class="bi bi-file-earmark-person-fill"></button>
+          <button id="cv" class="bi bi-file-earmark-person"></button>
         </a>
 
       </div>

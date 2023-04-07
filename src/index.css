@@ -40,16 +40,15 @@ footer {
   text-align: left;
 }
 
-.bi-file-earmark-person-fill {
+#cv {
   padding-bottom: 1cm;
-  padding-left: 10%;
-  color:rgb(255, 255, 255);
+  padding-left: 15%;
+  color:rgba(255, 255, 255, 0.384);
+  background-color: #00000000;
   font-size: 60px;
-  /* border: none; */
+  border: none;
   animation: shake 10s;
   animation-iteration-count: infinite;
-
-
 
 }
 
@@ -369,17 +368,5 @@ btn-53 {
     text-decoration: none;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1.5px 1.5px 0 #000;
   }
-  .bi-file-earmark-person-fill {
-    
-    color:rgb(255, 255, 255);
-    height: 1cm;
-    width: 1cm;
-    font-size: 100px;
-    border: none;
-    animation: shake 10s;
-    animation-iteration-count: infinite;
-  
-  
-  
-  }
+ 
 }

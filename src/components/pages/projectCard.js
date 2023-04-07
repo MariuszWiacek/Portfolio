@@ -33,6 +33,7 @@ function ProjectCard(props) {
                 backgroundColor: 'rgb(233, 152, 1)',
                 color: 'black',
                 padding: '4px 8px',
+                paddingLeft: '5%',
                 borderRadius: '5px',
                 border: 'none',
                 cursor: 'pointer',
@@ -55,6 +56,8 @@ function ProjectCard(props) {
                 borderRadius: '5px',
                 border: 'none',
                 cursor: 'pointer',
+                paddingLeft: '5%',
+                
                }}
             >
               <a style={{ textDecoration: "none", color: "black" }} href={props.github}>
