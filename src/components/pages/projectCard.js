@@ -25,37 +25,40 @@ function ProjectCard(props) {
             </Row>
             <Row>
               <Col>
-              <button
+              <button class="btn"
               
               style={{
-              
-                backgroundColor: 'white',
+                width: "180px",
+                fontFamily: "Poppins",
+                backgroundColor: 'rgb(233, 152, 1)',
                 color: 'black',
-                padding: '10px 20px',
+                padding: '4px 8px',
                 borderRadius: '5px',
                 border: 'none',
                 cursor: 'pointer',
                 transition: 'background-color 0.3s ease-out',
               marginLeft: '5%'}}
             >
-              <a style={{ textDecoration: "none", color: "purple" }} href={props.deployed}>
+              <a style={{ textDecoration: "none", color: "black" }} href={props.deployed}>
                 Deployed project
               </a>
             </button>
            
-           <button 
+           <button class="btn"
               
               style={{
-              
-                backgroundColor: 'white',
+                width: "180px",
+                fontFamily: "Poppins",
+                backgroundColor: '#3e6e8e',
                 color: 'white',
-                padding: '10px 20px',
+                padding: '4px 8px',
                 borderRadius: '5px',
                 border: 'none',
-                cursor: 'pointer'}}
+                cursor: 'pointer',
+               }}
             >
-              <a style={{ textDecoration: "none", color: "purple" }} href={props.github}>
-                GitHub Respository
+              <a style={{ textDecoration: "none", color: "black" }} href={props.github}>
+                GitHub
               </a>
             </button>
           
