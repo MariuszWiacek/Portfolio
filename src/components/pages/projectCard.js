@@ -33,12 +33,12 @@ function ProjectCard(props) {
                 backgroundColor: 'rgb(233, 152, 1)',
                 color: 'black',
                 padding: '4px 8px',
-                paddingLeft: '5%',
                 borderRadius: '5px',
                 border: 'none',
                 cursor: 'pointer',
                 transition: 'background-color 0.3s ease-out',
-              marginLeft: '5%'}}
+                alignItems: 'center',
+              marginLeft: '10%'}}
             >
               <a style={{ textDecoration: "none", color: "black" }} href={props.deployed}>
                 Deployed project
@@ -56,8 +56,8 @@ function ProjectCard(props) {
                 borderRadius: '5px',
                 border: 'none',
                 cursor: 'pointer',
-                paddingLeft: '5%',
-                
+                alignItems: 'center',
+                marginLeft: '10%',
                }}
             >
               <a style={{ textDecoration: "none", color: "black" }} href={props.github}>
