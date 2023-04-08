@@ -22,10 +22,10 @@ function ProjectsGallery(props) {
     <div class="jumbotron">
   <div style={{alignItems: 'center'}}>
   <h1 style={{fontSize: '60px', marginTop: '5%'}}>My Projects </h1>
-  <p style={{ fontSize: '20px', width:"75%" }}> "As a Front-end developer, I have worked on various web development projects that have helped me hone my skills and expertise in creating user-friendly and responsive interfaces. In the Projects section below, you will find a list of some of the projects I have worked on, along with a brief description of each project. These projects demonstrate my ability to create visually appealing and functional websites and applications, while ensuring optimal user experience across multiple devices and platforms."
+  <p style={{width:"75%" }}> "As a Front-end developer, I have worked on various web development projects that have helped me hone my skills and expertise in creating user-friendly and responsive interfaces. In the Projects section below, you will find a list of some of the projects I have worked on, along with a brief description of each project. These projects demonstrate my ability to create visually appealing and functional websites and applications, while ensuring optimal user experience across multiple devices and platforms."
   </p></div>
       <div  id="rows" >
-      <Sliderify style={{margin: "5%"}}>{projectCards}</Sliderify>
+      <Sliderify>{projectCards}</Sliderify>
       </div>
     
 </div>

@@ -16,10 +16,13 @@ function ContactMe() {
   
   <div style={{alignItems: 'center'}}>
   <h1 style={{fontSize: '60px',  marginTop: '5%'}}>Contact Me</h1>
-  <p style={{width: "75%"}}> I am currently looking to gain more experience as a front-end developer through employment or by accepting new freelance website projects. Please use the contact form or email me for more information.</p>
+  <p style={{width: "75%"}}> 
+  
+  I am currently looking to gain more experience as a front-end developer through employment or by accepting new freelance website projects.< br />
+   Please use the contact form or email me for more information.</p>
  
     <div className="form-container" style={{ display: "flex", flexDirection: "column", paddingBottom: "8%",  alignItems: "left" }}>
-      <form style={{marginLeft: "15%"}}onSubmit={handleSubmit}>
+      <form style={{marginLeft: "4%"}}onSubmit={handleSubmit}>
       
         <div style={{ paddingTop: "1%"}}>
          

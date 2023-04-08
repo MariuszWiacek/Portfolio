@@ -11,7 +11,7 @@ function ProjectCard(props) {
         </Col>
         <Col md={8}>
           <Card.Body>
-            <h2 style={{color: "red"}}>{props.name}</h2>
+            <h4 style={{fontSize: "40px", color: "orange"}}>{props.name}</h4>
             <Row>
               <Col>
                 <p> {props.technologies}</p>
@@ -47,7 +47,7 @@ function ProjectCard(props) {
            
            <button class="btn"
               
-              style={{
+              style={{ 
                 width: "180px",
                 fontFamily: "Poppins",
                 backgroundColor: '#3e6e8e',

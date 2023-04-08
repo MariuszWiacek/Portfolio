@@ -9,7 +9,7 @@ const About = () => {
   <h1 style={{fontSize: '60px',  marginTop: '5%'}}>About Me </h1>
   <p style={{ width : "75%", marginBottom: '5%', height: '400px', overflowY: 'auto'}}> 
   
-  Hi there, I'm Mariusz Wiacek and I'm a front-end developer with a passion for building engaging and user-friendly websites. <br/><br/>
+  Hi there, I'm <span style={{ color: 'orange' , fontWeight: "700"}}>Mariusz Wiacek </span>and <span style={{ color: 'orange' , fontWeight: "700"}}>I'm a front-end developer </span>with a passion for building engaging and user-friendly websites. <br/><br/>
 
 As a developer, I love the challenge of creating designs that not only look great but also provide a seamless and intuitive user experience. 
 <br/><br/>

@@ -13,7 +13,7 @@ return (
 	<div class="jumbotron">
   
   <div style={{alignItems: 'center'}}>
-  <h1 style={{fontSize: '70px', marginTop: '6%'}}>Mariusz Wiacek </h1>
+  <h3 className="animated-heading" style={{fontSize: '70px', marginTop: '6%'}}>Mariusz Wiacek </h3>
  
   <h2 style={{  color:"whitesmoke", fontSize: '25px' ,  marginBottom: '4%'}}>Front-End Developer, UX/UI Designer</h2>
   <p style={{

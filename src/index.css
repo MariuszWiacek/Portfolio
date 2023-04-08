@@ -5,56 +5,114 @@ body {
   -o-background-size: cover;
   background-size: cover !important;
   background-repeat: no-repeat;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   padding-bottom: "15%";
- 
-  
+  animation: fadeInLetter 1s ease-in-out;
 
- 
+}
 
-  
+h2 {
+  opacity: 0;
+  transform: translateY(50%);
+  animation: slide-up 3s ease-out forwards;
+}
+
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateX(-1500px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
 }
 
 
+.animated-heading {
+  font-size: 70px;
+  margin-top: 6%;
+  animation: fadeIn 2.5s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animated-heading span {
+  display: inline-block;
+  animation: fadeInLetter 1s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: calc(0.05s * var(--index));
+}
+
+@keyframes fadeInLetter {
+  from {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form-container {
+  padding-left: 1%;
+}
+
 
 .navbar-nav {
-  
-  --bs-nav-link-hover-color:   rgb(9, 255, 255)  !important;
-  font-family: 'Poppins', sans-serif;
+
+  --bs-nav-link-hover-color: rgb(9, 255, 255) !important;
+  font-family: 'Lato', sans-serif;
   font-size: 25px;
   font-weight: 700;
 }
 
 .navbar {
-  
-  --bs-navbar-active-color:  rgba(9, 255, 255, 0.589) !important;
+
+  --bs-navbar-active-color: rgba(9, 255, 255, 0.589) !important;
 }
+
 footer {
-  
+  margin-left: 1%;
+  margin-right: 1%;
   width: 100%;
-  height: 5%;
+  height: 3%;
   position: fixed;
   bottom: 0;
-  background-color: #000000;
-  color:  whitesmoke;
+  background-color: #000113;
+  color: whitesmoke;
   text-align: left;
+  font-size: 12px;
 }
 
 #cv {
-  padding-bottom: 1cm;
-  padding-left: 15%;
-  color:rgba(255, 255, 255, 0.384);
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-top: 2%;
+  color: rgb(255, 255, 255);
   background-color: #00000000;
   font-size: 60px;
   border: none;
-  animation: shake 10s;
-  animation-iteration-count: infinite;
 
 }
 
 a.nav-link {
-  color:  rgba(236, 173, 0, 0.925);
-  
+  color: rgba(236, 173, 0, 0.925);
+
 }
 
 .socializer {
@@ -63,14 +121,16 @@ a.nav-link {
   padding: 1cm;
 
 }
-.navbar-toggler{
+
+.navbar-toggler {
   color: #000 !important;
-background-color: rgb(233, 152, 1) !important; }
+  background-color: rgb(233, 152, 1) !important;
+}
 
 
 
 #navbar-logo {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: whitesmoke;
   font-size: 30px;
   text-decoration: none;
@@ -78,31 +138,48 @@ background-color: rgb(233, 152, 1) !important; }
 }
 
 
- 
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   text-align: left;
   margin-left: 5%;
- color:#00CED1 ;
-  
+  color: #00CED1;
+
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1.5px 1.5px 0 #000;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  text-align: left;
+  margin-left: 5%;
+  color: #00CED1;
+
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1.5px 1.5px 0 #000;
 }
 
 
 
-
-
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 50px;
   text-align: left;
+  padding-bottom: 0%;
+  margin-left: 5%;
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  text-align: left;
+  padding-bottom: 0%;
   margin-left: 5%;
 }
 
 p {
-  font-family: 'Baskerville', sans-serif;
-  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
   color: #ffffff;
   text-align: left;
   --tw-text-opacity: 1;
@@ -113,7 +190,7 @@ p {
 }
 
 #icn {
-  
+
   margin-left: 25% !important;
 }
 
@@ -170,31 +247,32 @@ h2 {
 
 btn {
   font-size: 50px;
-  
+
   /* or any other size you prefer */
 }
 
 /* width and color of scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
-  background-color: #F5F5F5;
+  width: 6px;
+  background-color: #f5f5f507;
 }
 
 /* color of scrollbar track */
 ::-webkit-scrollbar-track {
-  background-color: #F5F5F5;
+  background-color: #ffffff0a;
 }
 
 /* color and shape of scrollbar thumb */
 ::-webkit-scrollbar-thumb {
-  background-color: #4c98af;
+  background-color: #00c2fd63;
   border-radius: 5px;
 }
 
 /* color of scrollbar when hovering over it */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #3e6e8e;
+  background-color: #0099ff;
 }
+
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
@@ -256,7 +334,7 @@ btn {
 }
 
 
-#rows{
+#rows {
   width: 90%;
   align-items: left;
 }
@@ -264,7 +342,7 @@ btn {
 
 
 .card>.img-container>img {
- 
+
   overflow: hidden;
 }
 
@@ -303,14 +381,14 @@ a {
 
 @media (max-width: 960px) {
   body {
-    max-height:fit-content;
+    max-height: fit-content;
     background-size: auto;
     background-attachment: fixed;
     padding-bottom: 10%;
   }
 
   h1 {
-    font-size: 50px !important;
+    font-size: 36px !important;
     padding-left: 5%;
   }
 
@@ -319,46 +397,52 @@ a {
     padding: 5%;
   }
 
-btn-53 {
-    font-size: 20px;
-    width: 100%;
-    background-color: #00ff5528;
-    border-radius: 5%;
-    
+  h3 {
+    font-size: 46px !important;
+    padding-left: 5%;
   }
 
-  #img2
-  {
+  h4 {
+    font-size: 15px !important;
+    padding: 5%;
+  }
+
+  .form-container {
+    padding-left: 15%;
+  }
+
+  #img2 {
     margin: 10% !important;
   }
 
 
   #card {
     width: 100% !important;
-    
+
     padding-right: 15% !important;
   }
 
-  
 
- 
+
+
 
   #icn {
-    visibility:hidden;
+    visibility: hidden;
     align-items: center !important;
   }
 
-  
 
-  
+
+
 
   p {
-    font-size: 18px !important;
-    width: 90%  !important;
-    padding: 5%  !important;
+    font-size: 16px !important;
+    width: 90% !important;
+    padding: 5% !important;
   }
-  #rows
-  {width: 100% !important;
+
+  #rows {
+    width: 100% !important;
   }
 
   #navbar-logo {
@@ -368,5 +452,5 @@ btn-53 {
     text-decoration: none;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1.5px 1.5px 0 #000;
   }
- 
+
 }
