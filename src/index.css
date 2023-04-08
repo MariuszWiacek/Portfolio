@@ -94,8 +94,7 @@ footer {
   position: fixed;
   bottom: 0;
   background-color: #000000;
-  color: whitesmoke;
-  text-align: left;
+  color: rgba(255, 166, 0, 0.322);
   font-size: 14px;
 }
 
@@ -453,4 +452,8 @@ a {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1.5px 1.5px 0 #000;
   }
 
+footer {
+  font-size: 12px !important;
+  
+}
 }
