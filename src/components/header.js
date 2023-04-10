@@ -3,7 +3,7 @@ import Projects from '../components/pages/projects';
 
 function Header() {
   return(
-<Navbar id="navbarNav" expand="lg">
+<Navbar style={{marginLeft: "2%", marginRight:"2%"}} id="navbarNav" expand="lg">
 <Navbar.Brand href="#" id="navbar-logo" style={{marginLeft: "2%", marginRight:"2%"}}>&#123;&#123;  Mariusz-Portfolio  &#125;&#125;</Navbar.Brand>
 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 <Navbar.Collapse id="basic-navbar-nav">
