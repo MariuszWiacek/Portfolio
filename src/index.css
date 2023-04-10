@@ -426,8 +426,7 @@ a {
 
 
   #icn {
-    visibility: hidden;
-    align-items: center !important;
+    display: none;
   }
 
 
