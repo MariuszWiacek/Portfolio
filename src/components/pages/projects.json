@@ -1,6 +1,16 @@
 [
-    {
-      "id": 1,
+  {
+    "id": 1,
+    "name": "Evening Entartaiment",
+    "image":
+        "../images/ee.png",
+    "description" : "Evening Entertainment is the perfect app for busy professionals who want to unwind and make the most of their free time after work. With a user-friendly interface and a wide range of features, this app helps you plan and organize your evening activities so you can relax and enjoy yourself without any stress or hassle. ",
+    "technologies" : "JavaScript / JQuery / API / HTML / CSS / ",
+    "deployed": "https://evening-entertaiment.netlify.app/",
+    "github": "https://github.com/MariuszWiacek/Evening-Entertainment"
+  },  
+  {
+      "id": 2,
       "name": "Quick Movies",
       "image":
           "https://raw.githubusercontent.com/MariuszWiacek/Quick-movies/main/images/screenshot.png",
@@ -10,7 +20,7 @@
       "github": "https://github.com/MariuszWiacek/Quick-movies"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Bootstrap portfolio",
         "image":
           "https://github.com/MariuszWiacek/Bootstrap-Portfolio/raw/main/images/screenshot.png",
@@ -20,7 +30,7 @@
         "github": "https://github.com/MariuszWiacek/Bootstrap-Portfolio"
       },
       {
-        "id": 3,
+        "id": 4,
         "name": "Password generator",
         "image":
           "https://github.com/MariuszWiacek/Password-generator/raw/main/java.png",
@@ -30,7 +40,7 @@
         "github": "https://github.com/MariuszWiacek/password-generator"
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "Weather dashboard",
         "image":
           "https://github.com/MariuszWiacek/Weather-Dashboard/raw/main/images/screenshot.png",
@@ -40,7 +50,7 @@
         "github": "https://github.com/MariuszWiacek/weather-dashboard"
       },
       {
-        "id": 5,
+        "id": 6,
         "name": "My Team Generator",
         "image":
           "https://github.com/MariuszWiacek/My-Team-Generator/raw/main/assets/screenshot.png",
@@ -50,7 +60,7 @@
         "github": "https://github.com/MariuszWiacek/My-Team-Generator"
       },
       {
-        "id": 6,
+        "id": 7,
         "name": "Work Day Scheduler",
         "image":
           "https://github.com/MariuszWiacek/Scheduler/raw/main/images/screenshot.png",
@@ -59,4 +69,5 @@
         "deployed": "https://MariuszWiacek.github.io/Scheduler",
         "github": "https://github.com/MariuszWiacek/Scheduler"
       }
+      
   ]
