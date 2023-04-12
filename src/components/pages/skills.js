@@ -12,7 +12,7 @@ const Skills = () => {
   <span style={{ color: 'orange' , fontWeight: "700"}}>HTML5 /CSS : </span>Proficient in creating well-structured and visually appealing web pages using HTML and CSS.<br /><br />
 
   <span style={{ color: 'orange', fontWeight: "700" }}>JavaScript:</span> Proficient in JavaScript, including React to create dynamic and interactive web applications.<br /><br />
-  <span style={{ color: 'orange', fontWeight: "700" }}>Node.js :</span>  I am skilled in using Node.js to develop server-side applications<br /><br />
+  <span style={{ color: 'orange', fontWeight: "700" }}>Node.js :</span>  I am skilled in using Node.js to develop server-side applications and npm (Node Package Manager) to easily install, manage, and share code packages<br /><br />
   <span style={{ color: 'orange', fontWeight: "700" }}>APIs :</span>  I have nowledge how to use APIs to integrate different data, applications and services.<br /><br />
   <span style={{ color: 'orange', fontWeight: "700" }}>Responsive Design:</span>  Skilled in creating responsive designs that work across different devices and screen sizes to ensure a seamless user experience.<br /><br />
   
