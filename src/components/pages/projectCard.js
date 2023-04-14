@@ -7,7 +7,7 @@ function ProjectCard(props) {
     <Card id="card">
       <Row>
         <Col md={3} style={{border: "none"}}>
-          <Card.Img id="img2" style={{paddingTop: "5%", width: "300px", height: "250px"}} src={props.image} />
+          <Card.Img id="img2" style={{paddingTop: "5%", width: "95%", height: "250px"}} src={props.image} />
         </Col>
         <Col md={8}>
           <Card.Body>

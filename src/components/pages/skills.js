@@ -9,9 +9,11 @@ const Skills = () => {
     <h1 style={{fontSize: '60px', marginTop: '5%', }}>Skills</h1>
     <div>
   <p style={{width:"75%", height: "400px", overflowY: 'auto'}}>
+  <span style={{ color: 'red' , fontWeight: "900"}}>Certifications : </span>I have recently completed the Front-End Web Developer Skills Bootcamp Professional Certificate intensive program from edX.<br /><br />
   <span style={{ color: 'orange' , fontWeight: "700"}}>HTML5 /CSS : </span>Proficient in creating well-structured and visually appealing web pages using HTML and CSS.<br /><br />
 
-  <span style={{ color: 'orange', fontWeight: "700" }}>JavaScript:</span> Proficient in JavaScript, including React to create dynamic and interactive web applications.<br /><br />
+  <span style={{ color: 'orange', fontWeight: "700" }}>JavaScript:</span> Proficient in JavaScript, including framework - <span style={{ color: 'blue' }}>React </span> to create dynamic and interactive web applications. Familiar with component-based architecture and virtual DOM in React.<br /><br />
+  <span style={{ color: 'orange', fontWeight: "700" }}>Front End Frameworks and libraries :</span> Experienced in using front-end frameworks such as React, Bootstrap, and jQuery. <br /><br />
   <span style={{ color: 'orange', fontWeight: "700" }}>Node.js :</span>  I am skilled in using Node.js to develop server-side applications and npm (Node Package Manager) to easily install, manage, and share code packages<br /><br />
   <span style={{ color: 'orange', fontWeight: "700" }}>APIs :</span>  I have nowledge how to use APIs to integrate different data, applications and services.<br /><br />
   <span style={{ color: 'orange', fontWeight: "700" }}>Responsive Design:</span>  Skilled in creating responsive designs that work across different devices and screen sizes to ensure a seamless user experience.<br /><br />
@@ -28,8 +30,8 @@ const Skills = () => {
 
     <span style={{ color: 'orange', fontWeight: "700" }}>Debugging and Troubleshooting: </span>Jest / Enzyme - Skilled in troubleshooting and debugging code, demonstrating strong problem-solving abilities.<br /><br />
 
-    <span style={{ color: 'orange', fontWeight: "700" }}>Communication: </span>Strong communication skills, with the ability to articulate technical concepts to both technical and non-technical stakeholders.<br /><br />
-
+    <span style={{ color: 'orange', fontWeight: "700" }}>Communication: </span> Experience with Slack and Zoom, strong communication skills, with the ability to articulate technical concepts to both technical and non-technical stakeholders.<br /><br />
+    <span style={{ color: 'red', fontWeight: "900" }}>Skills I want to learn : </span>Interested in learning back-end development using technologies and programming languages such as SQL, Python, C++ and mobile app development using React Native.<br /><br />
     </p>
 </div>
 
