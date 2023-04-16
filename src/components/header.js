@@ -19,7 +19,7 @@ function Header() {
       <Navbar.Brand
         href="#"
         id="navbar-logo"
-        style={{ marginLeft: '2%', marginRight: '2%' }}
+        style={{ color: 'orange', marginLeft: '2%', marginRight: '2%' }}
       >
         &#123;&#123; Mariusz-Portfolio &#125;&#125;
       </Navbar.Brand>
