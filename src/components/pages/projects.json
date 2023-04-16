@@ -5,7 +5,7 @@
     "image":
         "https://raw.githubusercontent.com/MariuszWiacek/Portfolio/main/src/components/images/ee.png",
     "description" : "Evening Entertainment is the perfect app for busy professionals who want to unwind and make the most of their free time after work. With a user-friendly interface and a wide range of features, this app helps you plan and organize your evening activities so you can relax and enjoy yourself without any stress or hassle. ",
-    "technologies" : "Javascript / CSS / HTML / JQUERY / AJAX, APIs",
+    "technologies" : "Javascript / React / CSS / HTML / Axios / APIs",
     "deployed": "https://evening-entertaiment.netlify.app/",
     "github": "https://github.com/MariuszWiacek/Evening-Entertainment"
   },  
