@@ -33,14 +33,9 @@ function Header() {
           id="navbarNav"
           onClick={() => setExpanded(false)}
         >
-          <NavDropdown title="Projects" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#/projects" onClick={handleNavCollapse}>
-              Most Recent
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#/projects" onClick={handleNavCollapse}>
-              All Projects
-            </NavDropdown.Item>
-          </NavDropdown>
+          <Nav.Link href="#/projects" onClick={handleNavCollapse}>
+            Projects
+          </Nav.Link>
           <Nav.Link href="#/skills" onClick={handleNavCollapse}>
             Skills
           </Nav.Link>
