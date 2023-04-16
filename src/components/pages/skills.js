@@ -27,6 +27,7 @@ const Skills = () => {
     <span style={{ color: 'orange' , fontWeight: "700"}}>Performance Optimization: </span>Skilled in optimizing website performance, including skills such as minification, image optimization, and lazy loading, to create fast-loading websites that provide a smooth user experience.<br /><br />
 
     <span style={{ color: 'orange' , fontWeight: "700"}}>Version Control: </span>Proficient in Github and version control, allowing for collaboration with other developers and contributions to larger projects.<br /><br />
+    <span style={{ color: 'orange' , fontWeight: "700"}}>Code Editors: </span>Proficient in using Visual Studio Code, a powerful code editor with features such as code highlighting, code completion, and debugging tools.<br /><br />
 
     <span style={{ color: 'orange', fontWeight: "700" }}>Debugging and Troubleshooting: </span>Jest / Enzyme - Skilled in troubleshooting and debugging code, demonstrating strong problem-solving abilities.<br /><br />
 
