@@ -22,9 +22,11 @@ h2 {
 } 
 
 .white-bg p {
-  color: black !important;
+  color: rgb(6, 0, 61) !important;
 } 
-
+.white-bg span {
+  color: rgb(255, 0, 0) !important;
+} 
 .switch {
   
   position: relative;
@@ -345,19 +347,24 @@ btn {
 
 
 /* CARDS CSS */
-
+div.row {
+  border: #0099ff !important;
+}
 
 .card {
   background-color: #00000000 !important;
-  margin: 2rem;
-  align-items: left;
-  width: 280% !important;
+ margin-left: 1% !important;
+ margin-right: 1% !important;
+  width: 300% !important;
+  --bs-card-border-width: 0px !important;
 }
+
 
 
 #rows {
   width: 90%;
   align-items: left;
+  
 }
 
 
@@ -459,6 +466,8 @@ a {
     font-size: 16px !important;
     width: 90% !important;
     padding: 5% !important;
+    margin-right: 0% !important;
+    
   }
 
   #rows {
@@ -483,4 +492,11 @@ footer {
   font-size: 20px;
 
 }
+.card {
+ 
+ margin-left: 0% !important;
+  
+  
+}
+
 }

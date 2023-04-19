@@ -19,7 +19,7 @@ function ProjectCard(props) {
               </Row>
               <Row>
               <Col>
-                <p style={{color: "turquoise"}}>{props.description}</p>
+                <p style={{color: "turquoise" , }}>{props.description}</p>
               </Col>
              
             </Row>
