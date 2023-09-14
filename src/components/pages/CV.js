@@ -8,7 +8,7 @@ const CV = () => {
       <div >
         <h1 style={{ fontSize: '60px', marginTop: '5%' }}>CV </h1>
    <p>My professional Resume : </p>
-        <a href="https://drive.google.com/file/d/1yGb3Iu7HhAmq3j_r95IL_Nx2prJHL-8f/view" download>
+        <a href="https://docs.google.com/document/d/1v7ricqiVdlesBmrzpkOX8PomJaN1xn3_/edit?usp=sharing&ouid=106269992883549290468&rtpof=true&sd=true" download>
           <button id="cv" class="bi bi-file-earmark-person"></button>
         </a>
         <p style={{ overflowY: 'auto', width: "30%"}}>
