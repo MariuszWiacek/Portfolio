@@ -20,15 +20,15 @@
       "github": "https://github.com/MariuszWiacek/Quick-movies"
     },
     {
-        "id": 3,
-        "name": "Bootstrap portfolio",
-        "image":
-          "https://github.com/MariuszWiacek/Bootstrap-Portfolio/raw/main/images/screenshot.png",
-          "description" : "My portfolio biuld for purpose of training and practice Bootstrap",
-          "technologies" : "HTML / CSS / Bootstrap 4.6",
-        "deployed": "https://MariuszWiacek.github.io/Bootstrap-Portfolio/",
-        "github": "https://github.com/MariuszWiacek/Bootstrap-Portfolio"
-      },
+      "id": 3,
+      "name": "Mindfinia",
+      "image":
+        "videos\minfinia.mp4",
+        "description" : "Simple application that generates a webpage that displays your team's basic info so you can have have quick access to their emails and GitHub profiles. This command-line application has been buit using Object-oriented programming (OOP) and Jest for running unit tests, and all test has been PASSED. ",
+        "technologies" : "Javascript / NodeJS / CSS / HTML5",
+      "deployed": "https://github.com/MariuszWiacek/My-Team-Generator",
+      "github": "https://github.com/MariuszWiacek/My-Team-Generator"
+    },
       {
         "id": 4,
         "name": "Password generator",

@@ -1,13 +1,30 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
+import Flickity from 'flickity';
+import 'flickity/css/flickity.css';
 import ProjectCard from './projectCard';
 import projects from './projects.json';
-import { Sliderify } from "react-sliderify";
 
-function ProjectsGallery(props) {
+function ProjectsSlider(props) {
+  const flickityRef = useRef(null);
 
-  const projectCards = projects.map((project) => (
-    <div className="col-md-4 " >
-     <ProjectCard
+  useEffect(() => {
+    if (flickityRef.current) {
+      new Flickity(flickityRef.current, {
+        // Flickity options here
+        cellAlign: 'left',
+        wrapAround: true,
+        autoPlay: false,
+        prevNextButtons: true,
+        pageDots: false,
+        draggable: true,
+        contain: true,
+      });
+    }
+  }, []);
+
+  const projectCards = projects.map((project, index) => (
+    <div className="carousel-cell" key={index}>
+      <ProjectCard
         description={project.description}
         technologies={project.technologies}
         name={project.name}
@@ -19,18 +36,12 @@ function ProjectsGallery(props) {
   ));
 
   return (
-    <div class="jumbotron">
-  <div style={{alignItems: 'center'}}>
-  <h1 style={{fontSize: '60px', marginTop: '5%'}}>My Projects </h1>
-  <p style={{width:"75%" }}> "As a Front-end developer, I have worked on various web development projects that have helped me hone my skills and expertise in creating user-friendly and responsive interfaces. In the Projects section below, you will find a list of some of the projects I have worked on, along with a brief description of each project. These projects demonstrate my ability to create visually appealing and functional websites and applications, while ensuring optimal user experience across multiple devices and platforms."
-  </p></div>
-      <div  id="rows" >
-      <Sliderify>{projectCards}</Sliderify>
+    <div className="jumbotron">
+      <div className="carousel" ref={flickityRef}>
+        {projectCards}
       </div>
-    
-</div>
-
+    </div>
   );
 }
 
-export default ProjectsGallery;
+export default ProjectsSlider;

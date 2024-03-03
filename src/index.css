@@ -353,9 +353,9 @@ div.row {
 
 .card {
   background-color: #00000000 !important;
- margin-left: 1% !important;
- margin-right: 1% !important;
-  width: 300% !important;
+  width: 80%; 
+  margin-left: auto;
+  margin-right: auto;
   --bs-card-border-width: 0px !important;
 }
 
@@ -481,6 +481,9 @@ a {
     text-decoration: none;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1.5px 1.5px 0 #000;
   }
+
+ 
+  
 
 footer {
   font-size: 12px !important;
