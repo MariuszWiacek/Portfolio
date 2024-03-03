@@ -50,6 +50,16 @@
       },
       {
         "id": 6,
+        "name": "Lillup",
+        "video":
+          "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/lillup.mp4",
+          "description" : "This website was developed during an internship for a company and is currently in the construction phase, awaiting deployment. It features Google authentication for user login, ensuring security and convenience. Additionally, the website integrates Stripe payment functionality, offering seamless transactions.",
+          "technologies" : "Javascript / Typescript / CSS/ Google Auth/  Firebase / Node.js",
+        "deployed": "#",
+        "github": "#"
+      },
+      {
+        "id": 7,
         "name": "My Team Generator",
         "image":
           "https://github.com/MariuszWiacek/My-Team-Generator/raw/main/assets/screenshot.png",
@@ -59,7 +69,7 @@
         "github": "https://github.com/MariuszWiacek/My-Team-Generator"
       },
       {
-        "id": 7,
+        "id": 8,
         "name": "Work Day Scheduler",
         "image":
           "https://github.com/MariuszWiacek/Scheduler/raw/main/images/screenshot.png",
