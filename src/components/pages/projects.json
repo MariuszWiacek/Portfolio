@@ -30,6 +30,16 @@
       "deployed": "#",
       "github": "#"
     },
+    {
+      "id": 1,
+      "name": "Evening Entertaiment",
+      "video":
+          "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/ee.mp4",
+      "description" : "Evening Entertainment is the perfect app for busy professionals who want to unwind and make the most of their free time after work. With a user-friendly interface and a wide range of features, this app helps you plan and organize your evening activities so you can relax and enjoy yourself without any stress or hassle. ",
+      "technologies" : "Javascript | React / CSS | HTML | APIs",
+      "deployed": "https://evening-entertaiment.netlify.app/",
+      "github": "https://github.com/MariuszWiacek/Evening-Entertainment"
+    }, 
       {
         "id": 4,
         "name": "Password generator",
@@ -40,20 +50,11 @@
         "deployed": "https://MariuszWiacek.github.io/Password-generator/",
         "github": "https://github.com/MariuszWiacek/password-generator"
       },
-      {
-        "id": 1,
-        "name": "Evening Entertaiment",
-        "video":
-            "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/ee.mp4",
-        "description" : "Evening Entertainment is the perfect app for busy professionals who want to unwind and make the most of their free time after work. With a user-friendly interface and a wide range of features, this app helps you plan and organize your evening activities so you can relax and enjoy yourself without any stress or hassle. ",
-        "technologies" : "Javascript | React / CSS | HTML | APIs",
-        "deployed": "https://evening-entertaiment.netlify.app/",
-        "github": "https://github.com/MariuszWiacek/Evening-Entertainment"
-      }, 
+      
       {
         "id": 5,
         "name": "Weather dashboard",
-        "image":
+        "video":
           "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/weather.mp4",
           "description" : "This weather dashboard app is to check current weather and 5 day forecast using the OpenWeatherMap APIs.In this App you are able to check weather for multiple cities and retrieve them later from local storage.",
           "technologies" : "Javascript / CSS / HTML / JQUERY / AJAX, API / Moment.js ",
