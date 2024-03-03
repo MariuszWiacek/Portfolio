@@ -6,7 +6,7 @@
       "video":
           "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/superliga.mp4",
       "description" : "The website is a fun platform where users can guess football scores for upcoming matches and compete with friends. Additionally, it generates a dynamic leaderboard based on users' score predictions. Currently under construction, it promises to be an engaging hub for football enthusiasts seeking interactive gaming experiences",
-      "technologies" : "HTML | CSS | JavaScript | RestfulAPI",
+      "technologies" : "JavaScript | CSS | Google Firebase Database",
       "deployed": "https://superliga-two.vercel.app",
       "github": "https://github.com/MariuszWiacek/Superliga"
     },
@@ -26,9 +26,7 @@
       "video":
         "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/Lillup.mp4",
         "description" : "This website was developed during an internship for a company and is currently in the construction phase, awaiting deployment. It features Google authentication for user login, ensuring security and convenience. Additionally, the website integrates Stripe payment functionality, offering seamless transactions.",
-        "technologies" : "Javascript | Typescript | Tailwind CSS | Google Auth |  Firebase | Node.js",
-      "deployed": "#",
-      "github": "#"
+        "technologies" : "Javascript | Typescript | Tailwind CSS | Google Auth |  Firebase | Node.js"
     },
     {
       "id": 1,
