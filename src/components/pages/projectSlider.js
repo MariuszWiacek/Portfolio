@@ -13,10 +13,10 @@ function ProjectsSlider(props) {
         // Flickity options here
         cellAlign: 'left',
         wrapAround: true,
-        autoPlay: false,
+        autoPlay: true,
         prevNextButtons: true,
         pageDots: false,
-        draggable: true,
+        draggable: false,
         contain: true,
       });
     }
