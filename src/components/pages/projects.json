@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Evening Entertaiment",
-    "image":
-        "https://raw.githubusercontent.com/MariuszWiacek/Portfolio/main/src/components/images/ee.png",
+    "video":
+        "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/ee.mp4",
     "description" : "Evening Entertainment is the perfect app for busy professionals who want to unwind and make the most of their free time after work. With a user-friendly interface and a wide range of features, this app helps you plan and organize your evening activities so you can relax and enjoy yourself without any stress or hassle. ",
     "technologies" : "Javascript / React / CSS / HTML / Axios / APIs",
     "deployed": "https://evening-entertaiment.netlify.app/",
@@ -11,29 +11,28 @@
   },  
   {
       "id": 2,
-      "name": "Quick Movies",
-      "image":
-          "https://raw.githubusercontent.com/MariuszWiacek/Quick-movies/main/images/screenshot.png",
-      "description" : "This APP is made for all busy movie enthusiasts who wants to quickly get more detailed information about films from popular media library. You will be able to check on posters, full movies plots and descriptions when on busy schedule. You will also be able to save your favourite movie to library, where all your chosen films will be stored for your next visit. ",
-      "technologies" : "HTML / CSS / JavaScript / JQuery / API",
-      "deployed": "https://miry84.github.io/Quick-movies",
-      "github": "https://github.com/MariuszWiacek/Quick-movies"
+      "name": "Superliga",
+      "video":
+          "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/superliga.mp4",
+      "description" : "The website is a fun platform where users can guess football scores for upcoming matches and compete with friends. Additionally, it generates a dynamic leaderboard based on users' score predictions. Currently under construction, it promises to be an engaging hub for football enthusiasts seeking interactive gaming experiences",
+      "technologies" : "HTML / CSS / JavaScript / RestfulAPI",
+      "deployed": "https://superliga-two.vercel.app",
+      "github": "https://github.com/MariuszWiacek/Superliga"
     },
     {
       "id": 3,
       "name": "Mindfinia",
-      "image":
-        "videos\minfinia.mp4",
-        "description" : "Simple application that generates a webpage that displays your team's basic info so you can have have quick access to their emails and GitHub profiles. This command-line application has been buit using Object-oriented programming (OOP) and Jest for running unit tests, and all test has been PASSED. ",
-        "technologies" : "Javascript / NodeJS / CSS / HTML5",
+      "video": "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/minfinia.mp4",
+      "description": "Simple application that generates a webpage that displays your team's basic info so you can have quick access to their emails and GitHub profiles. This command-line application has been built using Object-oriented programming (OOP) and Jest for running unit tests, and all tests have been PASSED.",
+      "technologies": "Javascript / NodeJS / CSS / HTML5",
       "deployed": "https://github.com/MariuszWiacek/My-Team-Generator",
       "github": "https://github.com/MariuszWiacek/My-Team-Generator"
     },
       {
         "id": 4,
         "name": "Password generator",
-        "image":
-          "https://raw.githubusercontent.com/MariuszWiacek/Password-generator/main/java.png",
+        "video":
+          "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/password.mp4",
           "description" : "Application where you can use to generate a random password based on criteria you’ve selected. This app run in the browser, and feature dynamically updated HTML and CSS powered by JavaScript code. It have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.",
           "technologies" : "Javascript / HTML / CSS",
         "deployed": "https://MariuszWiacek.github.io/Password-generator/",
@@ -43,7 +42,7 @@
         "id": 5,
         "name": "Weather dashboard",
         "image":
-          "https://raw.githubusercontent.com/MariuszWiacek/Weather-Dashboard/main/images/screenshot.png",
+          "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/weather.mp4",
           "description" : "This weather dashboard app is to check current weather and 5 day forecast using the OpenWeatherMap APIs.In this App you are able to check weather for multiple cities and retrieve them later from local storage.",
           "technologies" : "Javascript / CSS / HTML / JQUERY / AJAX, API / Moment.js ",
         "deployed": "https://mariuszwiacek.github.io/Weather-Dashboard/",
