@@ -1,32 +1,34 @@
 [
-  {
-    "id": 1,
-    "name": "Evening Entertaiment",
-    "video":
-        "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/ee.mp4",
-    "description" : "Evening Entertainment is the perfect app for busy professionals who want to unwind and make the most of their free time after work. With a user-friendly interface and a wide range of features, this app helps you plan and organize your evening activities so you can relax and enjoy yourself without any stress or hassle. ",
-    "technologies" : "Javascript / React / CSS / HTML / Axios / APIs",
-    "deployed": "https://evening-entertaiment.netlify.app/",
-    "github": "https://github.com/MariuszWiacek/Evening-Entertainment"
-  },  
+   
   {
       "id": 2,
       "name": "Superliga",
       "video":
           "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/superliga.mp4",
       "description" : "The website is a fun platform where users can guess football scores for upcoming matches and compete with friends. Additionally, it generates a dynamic leaderboard based on users' score predictions. Currently under construction, it promises to be an engaging hub for football enthusiasts seeking interactive gaming experiences",
-      "technologies" : "HTML / CSS / JavaScript / RestfulAPI",
+      "technologies" : "HTML | CSS | JavaScript | RestfulAPI",
       "deployed": "https://superliga-two.vercel.app",
       "github": "https://github.com/MariuszWiacek/Superliga"
     },
+    
     {
       "id": 3,
       "name": "Mindfinia",
       "video": "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/minfinia.mp4",
-      "description": "Simple application that generates a webpage that displays your team's basic info so you can have quick access to their emails and GitHub profiles. This command-line application has been built using Object-oriented programming (OOP) and Jest for running unit tests, and all tests have been PASSED.",
-      "technologies": "Javascript / NodeJS / CSS / HTML5",
-      "deployed": "https://github.com/MariuszWiacek/My-Team-Generator",
-      "github": "https://github.com/MariuszWiacek/My-Team-Generator"
+      "description": "This website was crafted during my internship with Varlyq for their business needs. Developed independently, it serves as a digital solution tailored to the company's requirements.",
+      "technologies": "Javascript | Talwind CSS | MUI | Figma",
+      "deployed": "https://mindfinia.vercel.app",
+      "github": "https://github.com/MariuszWiacek/Mindfinia"
+    },
+    {
+      "id": 6,
+      "name": "Lillup",
+      "video":
+        "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/Lillup.mp4",
+        "description" : "This website was developed during an internship for a company and is currently in the construction phase, awaiting deployment. It features Google authentication for user login, ensuring security and convenience. Additionally, the website integrates Stripe payment functionality, offering seamless transactions.",
+        "technologies" : "Javascript | Typescript | Tailwind CSS | Google Auth |  Firebase | Node.js",
+      "deployed": "#",
+      "github": "#"
     },
       {
         "id": 4,
@@ -39,6 +41,16 @@
         "github": "https://github.com/MariuszWiacek/password-generator"
       },
       {
+        "id": 1,
+        "name": "Evening Entertaiment",
+        "video":
+            "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/ee.mp4",
+        "description" : "Evening Entertainment is the perfect app for busy professionals who want to unwind and make the most of their free time after work. With a user-friendly interface and a wide range of features, this app helps you plan and organize your evening activities so you can relax and enjoy yourself without any stress or hassle. ",
+        "technologies" : "Javascript | React / CSS | HTML | APIs",
+        "deployed": "https://evening-entertaiment.netlify.app/",
+        "github": "https://github.com/MariuszWiacek/Evening-Entertainment"
+      }, 
+      {
         "id": 5,
         "name": "Weather dashboard",
         "image":
@@ -48,16 +60,7 @@
         "deployed": "https://mariuszwiacek.github.io/Weather-Dashboard/",
         "github": "https://github.com/MariuszWiacek/weather-dashboard"
       },
-      {
-        "id": 6,
-        "name": "Lillup",
-        "video":
-          "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/lillup.mp4",
-          "description" : "This website was developed during an internship for a company and is currently in the construction phase, awaiting deployment. It features Google authentication for user login, ensuring security and convenience. Additionally, the website integrates Stripe payment functionality, offering seamless transactions.",
-          "technologies" : "Javascript / Typescript / CSS/ Google Auth/  Firebase / Node.js",
-        "deployed": "#",
-        "github": "#"
-      },
+      
       {
         "id": 7,
         "name": "My Team Generator",

@@ -15,7 +15,7 @@ return (
   <div style={{alignItems: 'center'}}>
   <h3 className="animated-heading" style={{fontSize: '70px', marginTop: '6%'}}>Mariusz Wiacek </h3>
  
-  <h2 style={{  color:"whitesmoke", fontSize: '25px' ,  marginBottom: '4%'}}>Front-End Developer, UX/UI Designer</h2>
+  <h2 style={{  color:"whitesmoke", fontSize: '25px' ,  marginBottom: '4%'}}>Front-End Developer | React | Javascript</h2>
   <p style={{
 	fontSize: '20px' ,
 	color: "#FFD700",
