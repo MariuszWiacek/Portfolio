@@ -1,5 +1,14 @@
 [
-   
+  {
+    "id": 9,
+    "name": "Ekstraklasa",
+    "video":
+        "https://github.com/MariuszWiacek/Portfolio/raw/main/videos/ekstraklasa.mp4",
+"description": "Interactive platform (currently only in polish lang) dedicated to betting on Polish league football matches. Users can predict scores for upcoming games, compete with friends, and track their performance on a dynamic leaderboard. The platform calculates points based on users' predictions and provides detailed statistics. All user data is securely stored in Firebase, ensuring privacy and safety. ",
+    "technologies" : "JavaScript | React | CSS | Google Firebase Database",
+    "deployed": "https://ekstraklasa.vercel.app/",
+    "github": "https://github.com/MariuszWiacek/ekstraklasa"
+  },
   {
       "id": 2,
       "name": "Superliga",

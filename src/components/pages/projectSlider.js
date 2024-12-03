@@ -9,31 +9,36 @@ function ProjectsSlider(props) {
 
   useEffect(() => {
     if (flickityRef.current) {
-      new Flickity(flickityRef.current, {
-        // Flickity options here
+      const flickityInstance = new Flickity(flickityRef.current, {
         cellAlign: 'left',
         wrapAround: true,
-        autoPlay: true,
+        autoPlay: false,  // Disable autoplay initially
         prevNextButtons: true,
         pageDots: false,
         draggable: false,
         contain: true,
       });
+
+      // Enable autoPlay after 10 seconds
+      setTimeout(() => {
+        flickityInstance.options.autoPlay = 10000;  // Set to 10 seconds autoplay speed
+        flickityInstance.play();  // Start autoplay
+      }, 10000);
     }
   }, []);
 
   const projectCards = projects.map((project, index) => (
-  <div className="carousel-cell" key={index}>
-    <ProjectCard
-      description={project.description}
-      technologies={project.technologies}
-      name={project.name}
-      image={project.image}
-      video={project.video}
-      deployed={project.deployed}
-      github={project.github}
-    />
-  </div>
+    <div className="carousel-cell" key={index}>
+      <ProjectCard
+        description={project.description}
+        technologies={project.technologies}
+        name={project.name}
+        image={project.image}
+        video={project.video}
+        deployed={project.deployed}
+        github={project.github}
+      />
+    </div>
   ));
 
   return (

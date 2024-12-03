@@ -12,21 +12,26 @@ function Header() {
     setExpanded(false);
   };
 
-
   const handleBgToggle = () => {
     const newBgImage = bgImage === resultImg ? whiteImg : resultImg;
     setBgImage(newBgImage);
     document.body.style.backgroundImage = `url(${newBgImage})`;
-    if (newBgImage === whiteImg) {
-      document.body.classList.add('white-bg'); // add the white-bg class to the body element
+
+    // Toggle the background color opacity
+    if (isToggleOn) {
+      // When toggle is ON, set background color to transparent black with 0.2 opacity
+      document.body.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
     } else {
-      document.body.classList.remove('white-bg'); // remove the white-bg class from the body element
+      // When toggle is OFF, set background color to transparent black with 0.7 opacity
+      document.body.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
     }
+
+    // Toggle the state of the background toggle
     setIsToggleOn(!isToggleOn);
   };
 
   return (
-    <div className="header" >
+    <div className="header">
       <Navbar
         style={{ marginRight: '2%' }}
         id="navbarNav"
@@ -41,9 +46,9 @@ function Header() {
           &#123;&#123; Mariusz-Portfolio &#125;&#125;
         </Navbar.Brand>
         <label className="switch">
-        <input type="checkbox" onClick={handleBgToggle} />
-        <span className="slider round" style={{ background: isToggleOn ? 'green' : 'red' }}></span>
-      </label>
+          <input type="checkbox" onClick={handleBgToggle} />
+          <span className="slider round" style={{ background: isToggleOn ? 'green' : 'red' }}></span>
+        </label>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           onClick={() => setExpanded(expanded ? false : 'expanded')}
@@ -72,7 +77,6 @@ function Header() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-       
     </div>
   );
 }

@@ -257,7 +257,11 @@ p {
   margin-left: 5%;
   padding-top: 1%;
   padding-bottom: 1%;
-
+  padding: 20px; /* Adds padding for space around the text */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adds subtle shadow for depth */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 #icn {
