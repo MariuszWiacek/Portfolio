@@ -21,7 +21,7 @@ function ProjectsSlider(props) {
 
       // Enable autoPlay after 10 seconds
       setTimeout(() => {
-        flickityInstance.options.autoPlay = 10000;  // Set to 10 seconds autoplay speed
+        flickityInstance.options.autoPlay = 10000;  // Set to 10 seconds 
         flickityInstance.play();  // Start autoplay
       }, 10000);
     }

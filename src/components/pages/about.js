@@ -12,11 +12,11 @@ const About = () => {
             marginBottom: '5%',
             height: '400px',
             overflowY: 'auto',
-            padding: '20px', // Add padding to give space around text
-            backgroundColor: 'rgba(0, 0, 0, 0.7)', // 50% transparent dark background
-            border: '2px solid rgba(0, 0, 0, 0.1)', // Light border around text
-            borderRadius: '8px', // Rounded corners for the frame
-            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)', // Subtle shadow for depth
+            padding: '20px', 
+            backgroundColor: 'rgba(0, 0, 0, 0.7)', 
+            border: '2px solid rgba(0, 0, 0, 0.1)', 
+            borderRadius: '8px', 
+            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
           }}
         >
           Hi there, I'm{" "}

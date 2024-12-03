@@ -11,11 +11,11 @@ const Skills = () => {
               width: "75%",
               height: "400px",
               overflowY: 'auto',
-              padding: '20px', // Padding to create space around text
-              backgroundColor: 'rgba(0, 0, 0, 0.7)', // 50% transparent dark background
-              border: '2px solid rgba(255, 255, 255, 0.3)', // Light border for contrast
-              borderRadius: '8px', // Rounded corners for the frame
-              boxShadow: '0 4px 10px rgba(0, 0, 0, 0.5)', // Subtle dark shadow for depth
+              padding: '20px', 
+              backgroundColor: 'rgba(0, 0, 0, 0.7)', 
+              border: '2px solid rgba(255, 255, 255, 0.3)', 
+              borderRadius: '8px', 
+              boxShadow: '0 4px 10px rgba(0, 0, 0, 0.5)', 
             }}
           >
             <span style={{ color: 'red', fontWeight: "900" }}>Certifications: </span>I have recently completed the Front-End Web Developer Skills Bootcamp Professional Certificate intensive program from edX.<br /><br />

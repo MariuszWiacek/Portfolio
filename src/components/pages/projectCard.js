@@ -19,10 +19,10 @@ function ProjectCard(props) {
         <Col md={8}>
           <Card.Body
             style={{
-              backgroundColor: 'rgba(0, 0, 0, 0.5)', // 50% transparent dark background for the body
-              borderRadius: '8px', // Rounded corners for the card body
-              boxShadow: '0 4px 10px rgba(0, 0, 0, 0.5)', // Optional: Dark shadow for depth
-              padding: '20px' // Padding to create space around the text
+              backgroundColor: 'rgba(0, 0, 0, 0.5)', 
+              borderRadius: '8px', 
+              boxShadow: '0 4px 10px rgba(0, 0, 0, 0.5)', 
+              padding: '20px' 
             }}
           >
             <h4 style={{ fontSize: "40px", color: "orange" }}>{props.name}</h4>

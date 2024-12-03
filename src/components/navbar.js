@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import resultImg from '../components/images/result.png'; // import the result.png image
-import whiteImg from '../components/images/white.png'; // import the white.png image
+import resultImg from '../components/images/result.png'; 
+import whiteImg from '../components/images/white.png'; 
 
 function Header() {
   const [expanded, setExpanded] = useState(false);
-  const [bgImage, setBgImage] = useState(resultImg); // set the initial background image to resultImg
-  const [isToggleOn, setIsToggleOn] = useState(false); // set the initial toggle state to false
+  const [bgImage, setBgImage] = useState(resultImg); 
+  const [isToggleOn, setIsToggleOn] = useState(false); 
 
   const handleNavCollapse = () => {
     setExpanded(false);
@@ -17,16 +17,16 @@ function Header() {
     setBgImage(newBgImage);
     document.body.style.backgroundImage = `url(${newBgImage})`;
 
-    // Toggle the background color opacity
+    
     if (isToggleOn) {
-      // When toggle is ON, set background color to transparent black with 0.2 opacity
+      
       document.body.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
     } else {
-      // When toggle is OFF, set background color to transparent black with 0.7 opacity
+      
       document.body.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
     }
 
-    // Toggle the state of the background toggle
+    
     setIsToggleOn(!isToggleOn);
   };
 
